@@ -1,20 +1,18 @@
 ---
 layout: post
-title:      "Doger - Sinatra CRUD demo"
-date:       2018-01-19 02:38:59 +0000
+title:      "Doger - Sinatra CRUD project"
+date:       2018-01-18 21:39:00 -0500
 permalink:  doger_-_sinatra_crud_demo
 ---
 
 
-I really enjoyed doing this project. The more I learn to code, the more I love it.  
+I found this project to be pretty simple.  I also think my coding skills have turned a corner. I used to get frustrated with errors and discouraged.  Now I'm pretty zen and just take it step by step. 
 
-Despite my excitement at building webapps, when it boils down to it, this project wasn't that complicated.
+My first step here was getting the file structure setup. I decided to try to use the rails console commands to build the initial filetree, but the file structure it stubbed out for me was pointing to folders and files I haven't worked with before, so I scrapped that and just built it manually myself.
 
-My first step was getting the file structure setup. I decided to try to use the rails console commands to, but the file structure it stubbed out for me was pointing to folders and files I haven't worked with before, so I scrapped that and just built it manually myself.
+Then I built the database.  Again, pretty simple, I want Users, Dogs and Walks.  Users have many dogs and walks.  Dogs have many Walks and vice versa (Dogs <-> Walks).  Once I built that, I built the models and tested the functionality.
 
-Then I built the database.  Again, pretty simple, I want Users, Dogs and Walks, Users have many dogs and walks.  Dogs have many Walks and vice versa (Dogs <-> Walks).  Once I built that, I built the models and tested the functionality.
-
-When I was satisfied with that, the real work began - building the views and controller actions.  My experience in doing these projects so far has been that despite my planning, as I build, the scope of the project changes as I see what works, and what doesnt.  For this one, I really only needed it to do a couple things:
+When I was satisfied, the real work began - building the views and controller actions.  My experience in doing these projects so far has been that despite my planning, as I build, the scope of the project changes as I see what works, and what doesnt.  For this one, I really only needed it to do a couple things:
 
 * Log in or sign up new Users.
 * Display basic user information, plus their dogs
