@@ -2,13 +2,13 @@
 title: Life by Alejandro
 header-img: img/home-bg.png
 email: friedlandaj@gmail.com
-copyright_name: professionalxmaz
+copyright_name: AlexFriedland
 description: > # this means to ignore newlines until "baseurl:"
   Full Stack Web Development through Flatiron School
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
-github_username:  professionalxmaz
-learn_profile: professionalxmaz
+github_username:  AlexFriedland
+learn_profile: AlexFriedland
 email_username: friedlandaj@gmail.com
 
 # Build settings
