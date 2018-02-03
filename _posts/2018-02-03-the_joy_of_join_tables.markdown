@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "the joy of join tables"
-date:       2018-02-03 22:00:15 +0000
+date:       2018-02-03 17:00:16 -0500
 permalink:  the_joy_of_join_tables
 ---
 
@@ -41,7 +41,7 @@ end
 class Walk < ActiveRecord::Base
   belongs_to :user
 	
-	has_many :dog_walks
+  has_many :dog_walks
   has_many :dogs, through: :dog_walks
 end
 ```
